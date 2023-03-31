@@ -1,0 +1,229 @@
+
+* {
+   box-sizing: border-box;
+}
+/* font */
+.pushpa{
+    /* border:2px solid rgb(248, 248, 51); */
+    border-top-width:2px;
+    background-color: rgba(255, 225, 0, 0.902);
+    color: red;
+    position:sticky;
+    font-size:13px;
+    padding:1px;
+}
+body{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+
+    padding:0px;
+    margin:0px;
+    background-image: url('img/bg.jpg');
+    height:150px;
+
+}
+.left{
+    /* border:2px solid red; */
+    display:inline-block;
+    width:10%;
+    position: absolute;
+    top:18px;
+    left:80px;
+
+}
+.mid{
+    /* border:2px solid black; */
+    display:block;
+    width: 45%;
+    /* margin: 100px auto; */
+    position:absolute;
+    height: 200px;
+    right:100px;
+    top:220px;
+}
+#search{
+    width:500px;
+    height:50px;
+    font-size: 14px;
+    /* margin:20px auto; */
+    border-radius: 5px;
+}
+.right{
+    /* border:2px solid yellow; */
+    display: inline-block;
+    width:50%;
+    position: absolute;
+    right:30px;
+    top:1px;
+    font-size: small;
+    font-weight: 900;
+
+}
+.btn{
+    /* position: inline; */
+    border:2px solid gray;
+    border-radius: 6px;
+    /* margin: 2px 2px; */
+    padding: 3px 3px;
+    
+    }
+    .btn:hover{
+        color:red;
+        background-color: rgb(121, 119, 119);
+    }
+.welcome{
+    /* border:2px solid blue; */
+    position: absolute;
+    width: 455px;
+    top:100px;
+    left:10%;
+    height: 355px;
+    /* padding:20px 70px; */
+}
+.left img{
+    
+    width: 130px;
+    height: 80px;
+    filter: invert(100%);   
+}
+.navbar{
+    display:inline-block;
+}
+.navbar li {
+    display:inline-block;
+    margin:4px;
+    padding:5px;   
+}
+.navbar li a {
+    text-decoration:none;
+    color:white;
+}
+.navbar li a:hover{
+    color:red;
+    background-color: black;
+    font:bold;
+    text-decoration: underline;
+}
+
+h2{
+color:white;
+margin: 30px 10px;
+padding: 10px 10px;
+font-size: 50px;
+position: relative;
+left:20px;
+}
+p{
+color:white;
+margin: 30px 20px;
+padding: 4px 5px;
+font: justify;
+/* position: absolute; */
+position: relative;
+left:20px;
+}
+.more{
+position: relative;
+left:44px;
+/* border:2px solid tomato; */
+border-radius: 4px;
+background-color: tomato;
+color: white;
+height:43px;
+}
+.more:hover{
+color:black;
+background-color: red;
+}
+/* for font we import into the css  */
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Source+Sans+Pro:wght@200&family=Ubuntu:wght@300&display=swap'); 
+.footer{
+position:relative;
+/* border:5px solid rgb(107, 146, 230); */
+background-color: rgb(7, 12, 56);
+width: 1396px;
+height: 120px;
+top:500px;
+
+}
+.foim{
+/* border:2px solid white; */
+color:white;
+display: inline-block;
+left:30px;
+width:20%;
+height:100px;
+/* margin:10px 120px; */
+/* padding:15px 15px; */
+}
+.forighstuff{
+/* border:2px solid rgb(200, 37, 37); */
+display: inline-block;
+color: white;
+width: 20%;
+height:100px;
+right:0px;
+position:absolute;
+font-size: small;
+font-size: bold ;
+/* margin:10px 230px; */
+/* padding:15px 15px; */
+text-decoration: none;
+
+
+}
+.footer img{
+/* border:2px soild white; */
+width: 130px;
+height:80px;
+filter: invert(100%);
+left:20px
+
+}
+.placeholder{
+color:red;
+}
+.fafabtn{
+display: inline-block;
+background-color: rgb(226, 140, 140);
+width:50px;
+height:50px;
+/* font-size: 14px; */
+/* margin:20px auto; */
+border-radius: 5px;
+top:px;
+}
+#belowstuff{
+color: white;
+font-size: small;
+
+}
+form.example button {
+/* float: left; */
+position:absolute;
+display: inline-block;
+/* left: 412px; */
+width: 15%;
+height:55px;
+padding: 10px;
+background: #e65951;
+color: black;
+font-size: 17px;
+border: 1px solid gray;
+border-left: none;
+cursor: pointer;
+}
+form.example button:hover {
+background: #0b7dda;
+}
+.forighstuff a{
+text-decoration: none;
+color:yellow;
+font: bold;
+}
+.forighstuff a:hover{
+text-decoration: none;
+color:red;
+font: bold;
+}

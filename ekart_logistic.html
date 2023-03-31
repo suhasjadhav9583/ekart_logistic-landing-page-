@@ -1,0 +1,315 @@
+<!-- 
+    Project Name: Ekart logistic landing page                                            //date: 22-12-22  && 26-12-2022
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descrition" content="this is e_kart logistic website ">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <meta name="keywords" content="ekart logistic,ekart,e kart logistic"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Ekart Logistic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kanit&family=Source+Sans+Pro:wght@200&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <!-- Load icon library -->
+
+    <style>
+        * {
+           box-sizing: border-box;
+        }
+        /* font */
+        .pushpa{
+            /* border:2px solid rgb(248, 248, 51); */
+            border-top-width:2px;
+            background-color: rgba(255, 225, 0, 0.902);
+            color: red;
+            position:sticky;
+            font-size:13px;
+            padding:1px;
+        }
+        body{
+            font-family: 'Kanit', sans-serif;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+
+            padding:0px;
+            margin:0px;
+            background-image: url('img/bg.jpg');
+            height:150px;
+
+        }
+        .left{
+            /* border:2px solid red; */
+            display:inline-block;
+            width:10%;
+            position: absolute;
+            top:18px;
+            left:80px;
+
+        }
+        .mid{
+            /* border:2px solid black; */
+            display:block;
+            width: 45%;
+            /* margin: 100px auto; */
+            position:absolute;
+            height: 200px;
+            right:100px;
+            top:220px;
+        }
+        #search{
+            width:500px;
+            height:50px;
+            font-size: 14px;
+            /* margin:20px auto; */
+            border-radius: 5px;
+        }
+        .right{
+            /* border:2px solid yellow; */
+            display: inline-block;
+            width:50%;
+            position: absolute;
+            right:30px;
+            top:1px;
+            font-size: small;
+            font-weight: 900;
+
+        }
+        .btn{
+            /* position: inline; */
+            border:2px solid gray;
+            border-radius: 6px;
+            /* margin: 2px 2px; */
+            padding: 3px 3px;
+            
+            }
+            .btn:hover{
+                color:red;
+                background-color: rgb(121, 119, 119);
+            }
+        .welcome{
+            /* border:2px solid blue; */
+            position: absolute;
+            width: 455px;
+            top:100px;
+            left:10%;
+            height: 355px;
+            /* padding:20px 70px; */
+        }
+        .left img{
+            
+            width: 130px;
+            height: 80px;
+            filter: invert(100%);   
+        }
+        .navbar{
+            display:inline-block;
+        }
+        .navbar li {
+            display:inline-block;
+            margin:4px;
+            padding:5px;   
+        }
+        .navbar li a {
+            text-decoration:none;
+            color:white;
+        }
+        .navbar li a:hover{
+            color:red;
+            background-color: black;
+            font:bold;
+            text-decoration: underline;
+        }
+       
+     h2{
+        color:white;
+        margin: 30px 10px;
+        padding: 10px 10px;
+        font-size: 50px;
+        position: relative;
+        left:20px;
+     }
+     p{
+        color:white;
+        margin: 30px 20px;
+        padding: 4px 5px;
+        font: justify;
+        /* position: absolute; */
+        position: relative;
+        left:20px;
+     }
+     .more{
+        position: relative;
+        left:44px;
+        /* border:2px solid tomato; */
+        border-radius: 4px;
+        background-color: tomato;
+        color: white;
+        height:43px;
+     }
+     .more:hover{
+      color:black;
+      background-color: red;
+     }
+     /* for font we import into the css  */
+     @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Source+Sans+Pro:wght@200&family=Ubuntu:wght@300&display=swap'); 
+   .footer{
+    position:relative;
+    /* border:5px solid rgb(107, 146, 230); */
+    background-color: rgb(7, 12, 56);
+    width: 1396px;
+    height: 120px;
+    top:500px;
+    
+   }
+ .foim{
+   /* border:2px solid white; */
+   color:white;
+   display: inline-block;
+   left:30px;
+   width:20%;
+   height:100px;
+   /* margin:10px 120px; */
+   /* padding:15px 15px; */
+ }
+ .forighstuff{
+   /* border:2px solid rgb(200, 37, 37); */
+   display: inline-block;
+   color: white;
+   width: 20%;
+   height:100px;
+   right:0px;
+   position:absolute;
+   font-size: small;
+   font-size: bold ;
+   /* margin:10px 230px; */
+   /* padding:15px 15px; */
+   text-decoration: none;
+
+   
+ }
+ .footer img{
+    /* border:2px soild white; */
+    width: 130px;
+    height:80px;
+    filter: invert(100%);
+    left:20px
+    
+ }
+ .placeholder{
+   color:red;
+ }
+ .fafabtn{
+    display: inline-block;
+    background-color: rgb(226, 140, 140);
+    width:50px;
+    height:50px;
+    /* font-size: 14px; */
+    /* margin:20px auto; */
+    border-radius: 5px;
+    top:px;
+ }
+ #belowstuff{
+  color: white;
+  font-size: small;
+  
+ }
+ form.example button {
+  /* float: left; */
+  position:absolute;
+  display: inline-block;
+  /* left: 412px; */
+  width: 15%;
+  height:55px;
+  padding: 10px;
+  background: #e65951;
+  color: black;
+  font-size: 17px;
+  border: 1px solid gray;
+  border-left: none;
+  cursor: pointer;
+}
+form.example button:hover {
+  background: #0b7dda;
+}
+ .forighstuff a{
+    text-decoration: none;
+    color:yellow;
+    font: bold;
+ }
+ .forighstuff a:hover{
+    text-decoration: none;
+    color:red;
+    font: bold;
+ }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="pushpa">
+            Flipkart will never demand any kind of fees or commission for setting up a franchise. If you come across any requests for such payments, you may be dealing with a fraudster. Please report such people or agencies at once.
+        </div>
+        <div class="left">
+           <img src="img/ekart logo.png" alt="ekart logo">
+        </div>
+        <div class="mid">
+                <!-- <div class="mid class">
+                <input type="text" name="myOrder" id="Search"  placeholder="search your order here">
+               </div> -->
+               <form class="example" action="action_page.php">
+             <div class="hang">
+                <input type="text" name="mySEARCH" id="search" placeholder="TRACK YOUR SHIPMENT">
+                <button type="submit" class="fafabtn"><i class="fa fa-search"></i></button>
+             </div>
+            </form>
+        </div>
+        <div class="right">
+          <ul class="navbar">
+                <li> <a href="https://ekartlogistics.com/about_us">About Us </a> </li>
+                <li> <a href="https://ekartlogistics.com/services">Services</a> </li>
+                <li> <a href="https://ekartlogistics.com/robotics">Automation</a> </li>
+                <li> <a href="https://ekartlogistics.com/corporate-info">Corporation Info</a> </li>
+                <li> <a href="">Contact US</a> </li>
+                <li> <a href="#"><button class="btn" >TRACKORDER</button></a></li>
+                <!-- this is for track order btn -->
+                <!-- <form action="backend.php">
+                <li><button class="btn" >TRACKORDER</button></li>
+               </form> -->
+          </ul>
+        </div>
+    </header>
+
+    <div class="welcome">
+       <h2> <span> Welcome
+        aboard eKart!</span> </h2>
+        <p>India's largest logistics and supply chain arm offering seamless end-to-end fulfilment services for businesses. We aim to provide superior customer experience and hassle-free logistics.</p>
+        <button class="more">KNOW MORE</button>
+    </div>
+    <footer class="footer">
+        <div class="foim">
+            <img src="img/ekart logo.png" alt="ekart_logo" class="imogi">
+            <div id="belowstuff">
+                Tower 5(A,B,C), Embassy Tech Village, Bengaluru, Karnataka - 560103 
+            </div>
+        </div>
+        <div class="forighstuff">
+            <br>
+            <br>
+            <br>
+            <a href="https://ekartlogistics.com/terms" class="ab">Terms&Condition</a>
+            <br>
+            <br>
+            © 2020 www.ekartlogistics.com. All rights reserved.
+        </div>
+    </footer>
+            
+        
+ 
+</div>
+</body>
+</html>
+
+
